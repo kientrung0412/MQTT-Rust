@@ -1,0 +1,8 @@
+[package]
+name = "RustProjects"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rumqttc = { version = "0.25.1", default-features = false }
+tokio = { version = "1.53.2", features = ["full"] }
